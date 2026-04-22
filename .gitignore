@@ -2,3 +2,6 @@
 gmon.out
 notes.md
 .DS_Store
+build_docker.sh
+Dockerfile
+datasets
