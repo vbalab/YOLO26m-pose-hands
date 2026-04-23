@@ -11,7 +11,7 @@
 
 ## Weights
 
-> [Download](yolo26s-pose-best.pt) YOLO26s-pose fine-tuned for hand pose detection.
+> [Download](https://github.com/vbalab/YOLO26m-pose-hands/blob/main/best-yolo26m-pose.pt) YOLO26s-pose fine-tuned for hand pose detection.
 
 ## How to run yourself
 
