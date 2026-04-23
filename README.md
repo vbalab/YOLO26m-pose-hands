@@ -11,14 +11,14 @@
 
 ## Weights
 
-> [Download](https://github.com/vbalab/YOLO26m-pose-hands/blob/main/best-yolo26m-pose.pt) YOLO26s-pose fine-tuned for hand pose detection.
+> [Download](https://github.com/vbalab/YOLO26m-pose-hands/blob/main/best-yolo26m-pose.pt) YOLO26m-pose fine-tuned for hand pose detection.
 
 ## How to run yourself
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/vbalab/YOLO26s-pose-hands.git
+git clone https://github.com/vbalab/YOLO26m-pose-hands.git
 ```
 
 Install dependencies:
@@ -39,7 +39,7 @@ Test videos are saved to `/runs/pose/webcam/<#>.mp4`.
 
 The model itself is pretrained [Ultralytics YOLO26](https://docs.ultralytics.com/models/yolo26/#supported-tasks-and-modes) finetuned for hand pose detection using their own [dataset](https://docs.ultralytics.com/datasets/pose/hand-keypoints/).
 
-To see details of training look at the [notebook](train.ipynb) and files of the [results](runs/pose/train/).
+To see details of training look at the [notebook](train.py) and files of the [results](runs/pose/train/).
 
 <div align="center">
 
